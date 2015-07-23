@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Apply Complete {% endblock %}
+
+{% block content %}
+
+<div class="container">
+<p class="lead">Apply Complete!</p>
+<p>
+<a href="{% url 'index' %}" class="btn btn-info" role="button">Back to Home</a>
+<a href="{% url 'display_loan' %}" class="btn btn-info" role="button">Display my loan</a>
+</p>
+</div>
+
+{% endblock %}
